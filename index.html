@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booklist App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div id="container">
+      <h1>Booklist App</h1>
+
+      <form id="form" action="">
+
+        <div class="row">
+          <label for="name">Name of the Book:</label>
+          <input type="text" id="name" autocomplete="off" /><br /><br />
+        </div>
+
+        <div class="row">
+          <label for="author">Author of the Book:</label>
+          <input type="text" id="author" autocomplete="off" /><br /><br />
+        </div>
+
+        <div class="row">
+          <label>Title of Book:</label>
+          <button
+            onclick="document.getElementById('title').click(); return false;"
+          >
+            Upload title page of Book
+          </button>
+          <input type="file" id="title" accept="image/*" />
+        </div>
+
+        <br /><br />
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      
+      <br /><br />
+      <div id="display"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

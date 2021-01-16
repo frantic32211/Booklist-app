@@ -1,0 +1,106 @@
+body{
+    background: url(https://images.wallpaperscraft.com/image/books_shelf_graffiti_125860_3840x2400.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+#container {
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #58A2B4 ;
+    text-align: center;
+    border-radius: 0px 80px 0px 0px;
+    border: none;
+    padding: 20px 50px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 0px;
+    text-decoration: underline;
+}
+.row {
+    display: table-row;
+    font-weight: bold;
+}
+.row label {
+    display: table-cell;
+    text-align: right;
+    padding-left: 15px;
+    font-size: 22px;
+}
+input[type="file"]{
+    display: none;
+}
+#submit {
+    width: 50%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #ED8427;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+#submit:hover {
+    cursor: pointer;
+}
+#container #display {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#container .myList {
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #5B27C9;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+}
+#container .myList  .listTitle {
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: relative;
+}
+.listOne {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-weight: none;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    padding-left: 120px;
+    padding-right: 30px;
+    text-align: left;
+}
+.listTwo {
+    font-size: 20px;
+    font-weight: none;
+    color: #c1c1c1;
+    margin: 5px 0px;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 120px;
+    text-align: left;
+}
+.close {
+    height: 30px;
+    width: 30px;
+    float: right;
+    position: relative;
+}
+.close:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
